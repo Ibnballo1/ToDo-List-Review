@@ -48,7 +48,7 @@ for (let i = 0; i < eachList.addedItems.length; i += 1) {
   checkbox.addEventListener('change', () => {
     eachList.updateCheckbox(newTask);
     eachList.checkTask(newTask.id);
-    input.style.textDecoration = 'line-through';
+    description.style.textDecoration = 'line-through'; 
   });
 }
 
