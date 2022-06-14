@@ -75,7 +75,6 @@ formAddItems.addEventListener('submit', () => {
   checkbox.addEventListener('change', () => {
     eachList.updateCheckbox(newTask);
     eachList.checkTask(newTask.id);
-    input.style.textDecoration = 'line-through';
   });
 });
 
