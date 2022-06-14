@@ -21,11 +21,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.highlight {
+  border: 2px solid red !important;
+}
+
 .hidden {
   display: none;
 }
 
 #eachList {
+  border: 2px solid green;
   position: absolute;
   top: 12vh;
   display: flex;
@@ -106,21 +111,25 @@ li input[type='text']:hover {
 }
 
 .each-task {
+  border: 2px solid brown;
   padding: 12px 10px;
   display: flex;
   justify-content: space-between;
 }
 
 .inputs {
+  border: 2px solid red !important;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
 input[type="checkbox"] {
+  border: 2px solid red !important;
   border: 3px solid gray;
 }
 
 .each-task button {
+  border: 2px solid red !important;
   font-size: 18px;
 }
 
